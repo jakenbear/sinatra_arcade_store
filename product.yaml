@@ -1,0 +1,51 @@
+---
+'1': !ruby/object:Product
+  id: 1
+  name: BURGER TIME
+  price: 250
+  description: Match the hamburgers to save the world.
+'2': !ruby/object:Product
+  id: 2
+  name: GALAGA
+  price: 375
+  description: Space Aliens are coming for you.
+'3': !ruby/object:Product
+  id: 3
+  name: PAPER BOY
+  price: 425
+  description: Deliver all of the newspapers
+'4': !ruby/object:Product
+  id: 4
+  name: DIG DUG
+  price: 300
+  description: The classic digging classic.
+'5': !ruby/object:Product
+  id: 5
+  name: DONKEY KONG
+  price: 750
+  description: Can you reach the top?
+'6': !ruby/object:Product
+  id: 6
+  name: NINTENDO ICE HOCKEY
+  price: 500
+  description: Intense on ice action.
+'7': !ruby/object:Product
+  id: 7
+  name: SONIC THE HEDGEHOG
+  price: 408
+  description: Gotta go fast.
+'8': !ruby/object:Product
+  id: 8
+  name: HALO
+  price: 150
+  description: Finish the fight.
+'9': !ruby/object:Product
+  id: 9
+  name: FORZA MOTORSPORT
+  price: 340
+  description: Fast racing action.
+'10': !ruby/object:Product
+  id: 10
+  name: MASS EFFECT 3
+  price: 800
+  description: Epic space adventure.

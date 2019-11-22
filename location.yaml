@@ -1,0 +1,32 @@
+---
+'1': !ruby/object:Location
+  id: 1
+  name: The Cabinet Farm
+  city: Toroto
+  product_list:
+    1: 8
+    2: 10
+    10: 6
+'2': !ruby/object:Location
+  id: 2
+  name: Classic Retro Works
+  city: New York
+  product_list:
+    2: 7
+    3: 12
+    4: 20
+'3': !ruby/object:Location
+  id: 3
+  name: Gamerama and Phone repair
+  city: Calgary
+  product_list:
+    5: 2
+    6: 3
+'4': !ruby/object:Location
+  id: 4
+  name: East Coast Game Center
+  city: Boston
+  product_list:
+    7: 20
+    8: 13
+    9: 12
