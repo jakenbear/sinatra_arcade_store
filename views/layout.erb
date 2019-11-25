@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8' />
+    <title><%= @title %></title>
+    <link href='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css' rel='stylesheet' />
+  </head>
+  <body class='container'>
+    <h1><%= @title %></h1>
+    <p><a href="/">HOME</a> | <a href="/stores">STORES</a> | <a href="/locations">LOCATIONS</a> | <a href="/products">PRODUCTS</a> </p>
+    <%= yield %>
+    <p><h2>FOOTER</h2></p>
+  </body>
+</html>

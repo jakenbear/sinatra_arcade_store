@@ -7,13 +7,6 @@ require 'yaml/store'
 module Storeapp
   class Web < Sinatra::Base
 
-    Choices = {
-      'HAM' => 'Hamburger',
-      'PIZ' => 'Pizza',
-      'CUR' => 'Curry',
-      'NOO' => 'Noodles',
-    }
-    
     #LOADING FUNCTIONS - BEGIN
     def load_stores()
       s = []
@@ -39,20 +32,20 @@ module Storeapp
       return l
     end
     #LOADING FUNCTIONS - END
- 
+
     #STORE APP CODE - HOME
     get '/' do
-      @title = 'Jakes Aracde Store Homepage!'
+      @title = 'Jakes Arcade Store Homepage!'
       erb :index
     end
-   
+
     #STORE DISPLAY
     get '/stores' do
       stores = load_stores()
       locations = load_locations()
       products = load_products()
       @title = 'STORE INFO'
-      @store = stores  
+      @store = stores
       erb :stores
     end
 
@@ -60,7 +53,7 @@ module Storeapp
     get '/products' do
       products = load_products()
       @title = 'PRODUCTS'
-      @products = products  
+      @products = products
       erb :products
     end
 
@@ -68,12 +61,11 @@ module Storeapp
     get '/locations' do
       locations = load_locations()
       @title = 'LOCATIONS'
-      @locations = locations 
+      @locations = locations
       erb :locations
     end
 
 
 
   end
-end 
-
+end
